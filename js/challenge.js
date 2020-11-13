@@ -11,5 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const comment = document.getElementById('comment')
     const pause = document.getElementById('pause')
 
-    if
+    let timer = setInterval(setTime, 1000);
+
 });
